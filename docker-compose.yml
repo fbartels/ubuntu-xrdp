@@ -13,7 +13,7 @@ services:
       - "2222:22"
     volumes:
       - ssh:/etc/ssh/
-      - /volumes2/homes/:/home/
+      - /volume2/homes/:/home/
 
 volumes:
   ssh:
